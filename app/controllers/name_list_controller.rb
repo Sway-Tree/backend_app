@@ -1,5 +1,6 @@
 class NameListController < ApplicationController
 	def index
-		@names = ["Anette", "Henry", "Tarja", "Mia", "Callin", "Pauli"]
+		@names = ["Leah", "John", "Paula", "Julia", "Caleb", "Pauri"]
+		render :json => @names
 	end
 end
